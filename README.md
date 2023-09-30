@@ -1,7 +1,7 @@
 # Social Media Marketing Website
 
 ## Description
-Whether you are a small start-up or an established enterprise, our SEO and Marketind services are designed to enhance your online visibility,drive targeted tradffic, and ultimately increase your revenue.
+Whether you are a small start-up or an established enterprise, our SEO and Marketing services are designed to enhance your online visibility,drive targeted tradffic, and ultimately increase your revenue.
 
 ## Installation
 N/A
