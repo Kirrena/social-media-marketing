@@ -1,13 +1,17 @@
+/* Using universal selector to set box-sizing, padding, margin */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body background color*/
 body {
     background-color: #d9dcd6;
 }
 
+/* Header class set up by creating blue backgroung with white font color,overwrites 0padding*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +19,18 @@ body {
     color: #ffffff;
 }
 
+/* Make sure that element can sit nex to each other  */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changing color in Horiseon, seo become light grey */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Changing setting for navbar*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +39,29 @@ body {
     font-size: 20px;
 }
 
+/* Removes bullets from list */
 .header div nav ul {
     list-style-type: none;
 }
 
+/* Make sure elements can sit next to each other*/
 .header div nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Changes color of links, removes underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets all paragraph elements`s size */
 p {
     font-size: 16px;
 }
 
+/* Sets up the first big picture as background */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,81 +71,7 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* Next 3 sets the divs basics for article */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,6 +99,7 @@ p {
     color: #ffffff;
 }
 
+/* Next 3 sets images in article */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -173,6 +112,7 @@ p {
     max-height: 200px;
 }
 
+/* Next 3 sets article with their header */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -188,6 +128,88 @@ p {
     font-size: 36px;
 }
 
+/* Sets for float left class on sections to position image or caption */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Sets for float right class on sections to position image or caption */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Sets for section with content class */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Sets for aside element with benefits class */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Next 3classes sets aside elements basics */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Next 3classes sets aside elements with their header */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Next 3 sets aside element image display */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Sets footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +217,7 @@ p {
     text-align: center;
 }
 
+/* Sets footer with their heading */
 .footer h2 {
     font-size: 20px;
 }
