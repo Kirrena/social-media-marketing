@@ -31,7 +31,7 @@ body {
 }
 
 /* Changing setting for navbar*/
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -40,12 +40,12 @@ body {
 }
 
 /* Removes bullets from list */
-.header div nav ul {
+.header ul {
     list-style-type: none;
 }
 
 /* Make sure elements can sit next to each other*/
-.header div nav ul li {
+.header li {
     display: inline-block;
     margin-left: 25px;
 }
