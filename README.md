@@ -11,6 +11,7 @@ Our user-friendly interface features a sleek, linked navigation bar at the top, 
 
 ## Credits
 Omar Patel [https://www.linkedin.com/in/omarsalimpatel]
+Thanks CG MM Team for detailed scoring!!! Inspired me to correct my mistakes and misunderstanding!!!!
 
 ## Link
 [My marketing website](https://kirrena.github.io/social-media-marketing/)
@@ -19,7 +20,7 @@ URL: https://kirrena.github.io/social-media-marketing/
 
 
 ## Screenshot
-![screenshot](https://github.com/Kirrena/social-media-marketing/assets/74355186/2efd37d8-5083-49fc-aff3-c1f9b061f360)
+![new-screenshot](https://github.com/Kirrena/social-media-marketing/assets/74355186/21da130d-525f-46cd-9b08-047dfc6d6792)
 
 ## License
 MIT license
